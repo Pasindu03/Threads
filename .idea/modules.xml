@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Extend-Thread-Class -2/Extend-Thread-Class -2.iml" filepath="$PROJECT_DIR$/Extend-Thread-Class -2/Extend-Thread-Class -2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Join-isAlive/Join-isAlive.iml" filepath="$PROJECT_DIR$/Join-isAlive/Join-isAlive.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda-Expression - 5/Lambda-Expression - 5.iml" filepath="$PROJECT_DIR$/Lambda-Expression - 5/Lambda-Expression - 5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Runnable-Implement-Interface - 3/Runnable-Implement-Interface - 3.iml" filepath="$PROJECT_DIR$/Runnable-Implement-Interface - 3/Runnable-Implement-Interface - 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Thread.iml" filepath="$PROJECT_DIR$/.idea/Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread-Priority/Thread-Priority.iml" filepath="$PROJECT_DIR$/Thread-Priority/Thread-Priority.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads - 1/Threads.iml" filepath="$PROJECT_DIR$/Threads - 1/Threads.iml" />
     </modules>
   </component>

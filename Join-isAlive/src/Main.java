@@ -1,0 +1,47 @@
+public class Main {
+    public static void main(String[] args) {
+        Thread Obj1 = new Thread(() -> {
+            for (int i = 1; i <= 5; i++){
+                System.out.println("One");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+        Thread Obj2 = new Thread(() -> {
+            for (int i = 1; i <= 5; i++){
+                System.out.println("Two");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+
+        Obj1.start();
+        System.out.println("Thread One Status : " + Obj1.isAlive());
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        Obj2.start();
+
+        try {
+            Obj1.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Obj2.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("Thread One Status : " + Obj1.isAlive());
+        System.out.println();
+        System.out.println("Bye");
+    }
+}
